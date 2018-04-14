@@ -50,7 +50,7 @@ int main (){
     cout << "Deductions             " << std::fixed<< std::setprecision(2)<<deductions << endl;
   } 
  // if he makes less than 500 //
-  
+ //New comment 
 else if (grosspay <= 500.00){
     deductions = 0.05*grosspay;
     cout << "Deductions             " << std::fixed<< std::setprecision(2)<<deductions << endl;
